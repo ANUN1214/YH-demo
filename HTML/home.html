@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ct.css">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/btn.css">
+    <title>Home</title>
+    <style>
+        body {
+           background-color: rgb(183, 196, 211);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body-box">
+        <div class="mytime">
+            <div id="clock">
+                
+                <p id="date" class="date"></p>
+                <p id="time" class="time"></p>
+              </div>
+            <div class="mysearch">
+                <input id="text" type="text" class="searchinput">
+                <button onclick="to()" class="mybtn " id="mybtn">Search<span class="glyphicon glyphicon-search"></span> </button>
+
+                </button>
+                <div class="search">
+                    <ul id="myul" class="myul">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bgb">
+            <img src="img/bj.png" alt="" class="img-responsive" alt="Responsive image">
+        </div>
+        <div class="bg-color">
+
+        </div>
+    </div>
+
+</body>
+<script src="js/my.js"></script>
+<script src="js/clock.js"></script>
+<script src="lib/jquery/jquery-1.11.0.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+</html>

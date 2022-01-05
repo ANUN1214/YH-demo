@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+html,
+body {
+  height: 100%;
+}
+.body-box {
+  height: 100%;
+  backdrop-filter: blur(150px);
+}
+ul li a {
+  list-style: none;
+  margin: 15px;
+  color: transparent;
+  text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.6),
+    0px 4px 4px rgba(0, 0, 0, 0.05);
+  letter-spacing: 0.2rem;
+}
+.mybtn {
+  position: absolute;
+}
+.mysearch{
+  margin-top: 50px;
+}
+.searchinput {
+  text-align: center;
+}
+.searchinput {
+  border: #adb5c7 2px solid;
+  width: 600px;
+  height: 60px;
+  border-radius: 30px;
+  text-align: center;
+  font-family: youyuan;
+  font-weight: 700;
+  font-size: 20px;
+  color: transparent;
+  text-shadow: 0px 0px 1px rgba(54, 53, 53, 0.6),
+    0px 4px 4px rgba(0, 0, 0, 0.05);
+  letter-spacing: 0.2rem;
+  background-color: transparent;
+  
+  box-shadow:
+    0px 0px 1px rgba(255, 255, 255, .6),
+    0px 4px 4px rgba(0, 0, 0, .05);
+  
+}
+.searchinput:focus {
+  outline: none;
+  border: #ff9e00 2px solid;
+}
+.search {
+  margin: 0 auto;
+  text-align: start;
+  width: 400px;
+}
+.search ul {
+  margin-left: -100px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 600px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  letter-spacing: 0.2rem;
+}
+li a:hover {
+  text-decoration: none;
+  color: transparent;
+  text-shadow: 0px 0px 1px rgba(62, 122, 182, 0.6),
+    0px 4px 4px rgba(0, 0, 0, 0.05);
+  letter-spacing: 0.2rem;
+}
+.bgb {
+  width: 400px;
+  margin-top: -60px;
+  float: left;
+}
+.mytime {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: transparent;
+  text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.6),
+    0px 4px 4px rgba(0, 0, 0, 0.05);
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+ul{
+  display: none;
+}
